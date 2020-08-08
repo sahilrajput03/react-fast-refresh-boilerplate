@@ -1,8 +1,12 @@
 
-Source: 
+Source:
+
 https://github.com/pmmmwh/react-refresh-webpack-plugin/tree/main/examples/create-react-app
-(Note cloning above example requrires reac-dev-utils to be installed too, I have created a pull reuqest for the same too. Lets see to that in future.)
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+```fetcher --url=https://github.com/pmmmwh/react-refresh-webpack-plugin/tree/main/examples/create-react-app```
+### To install fetcher use:
+
+npm install -g github-files-fetcher
 
 ## Available Scripts
 

@@ -15,7 +15,6 @@
     "babel-loader": "^8.1.0",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.6",
-    "react-dev-utils": "^10.2.1",
     "react-refresh": "^0.8.3",
     "react-scripts": "3.4.1",
     "webpack": "^4.44.0"
