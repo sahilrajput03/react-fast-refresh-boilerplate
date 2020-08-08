@@ -1,29 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import logo from './logo.svg';
 import './App.css';
 
 
 function App() {
-  let [mystate, setMyState] = useState(19)
+  const [state, setState] = useState(0)
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p onClick={() => {
-          setMyState(mystate+200)
-        }}>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <p
+          onClick={() => setState(state + 1)}
+          className="paragraphStyled"
         >
-          Learn React {mystate}
-        </a>
+          Change State
+        </p>
+        <h1>{state}</h1><br></br><br></br>
+      Tip: Start editing the increment value to see state changes being unchanged(preserved).
       </header>
-    </div>
+    </div >
   );
 }
 
