@@ -1,12 +1,15 @@
 
-Source:
+# Source:
 
 https://github.com/pmmmwh/react-refresh-webpack-plugin/tree/main/examples/create-react-app
 
-```fetcher --url=https://github.com/pmmmwh/react-refresh-webpack-plugin/tree/main/examples/create-react-app```
-### To install fetcher use:
+# Use fetcher to clone froom original source
 
-npm install -g github-files-fetcher
+```fetcher --url=https://github.com/pmmmwh/react-refresh-webpack-plugin/tree/main/examples/create-react-app```
+
+# Tip: Installing fetcher:
+
+```npm install -g github-files-fetcher```
 
 ## Available Scripts
 
